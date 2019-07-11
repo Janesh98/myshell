@@ -1,4 +1,4 @@
-This is a detailed manual that explains how to use the shell commands:
+# Shell Manual
 
 cd: 
 changes the current directory, if a directory name is given, eg. cd  <directory>, the current 
