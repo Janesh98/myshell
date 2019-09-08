@@ -72,7 +72,7 @@ if it does.
 
 ## Examples:
 
-		``` echo args example > output.txt ```
-		``` ProgramName.py  args > output.txt ```
-		``` echo args example >> output.txt ```
-		``` ProgramName.py args >> output.txt ```
+		echo args example > output.txt
+		ProgramName.py  args > output.txt
+		echo args example >> output.txt
+		ProgramName.py args >> output.txt
