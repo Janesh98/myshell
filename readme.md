@@ -2,9 +2,9 @@
 
 ## cd:
 
-changes the current directory, if a directory name is given, eg. cd  <directory>, the current 
+changes the current directory, if a directory name is given, eg. ``` cd  <directory> ```, the current 
 working directory Is changed to the given named directory. If no name is given, cd will change 
-to the home directory. Note : you can acess a super directory by the command <cd ..>.
+to the home directory. Note : you can acess a super directory by the command ``` <cd ..> ```
 
 ## clr:
 
@@ -24,11 +24,11 @@ temporary files and user profile settings, they help shape the environment progr
 
 ## echo:
 
-displays a comment on the display, e.g echo <example>
+displays a comment on the display, e.g ``` echo <example> ```
 
 ## hello:
 
-says hello, if a name is given it greets you with it, eg. hello <Donal>
+says hello, if a name is given it greets you with it, eg. ``` hello <Donal> ```
 
 ## pause:
 
@@ -41,23 +41,23 @@ quits the shell, ending the program
 ## myshell:
 
 provides batchfile support, a batchfile is a file with a list of commands. A batchfile can be 
-ran by the command myshell followed by the file with the relevant file extension eg, myshell <
-batchfile.txt>.
+ran by the command myshell followed by the file with the relevant file extension eg, ``` myshell <
+batchfile.txt> ```
 
 ## help:
 
 provides a short simple explanation for all commands within the shell, if an argument is given
- eg. help <topic>, the relevant explanation is provided. If no argument Is given, all 
+ eg. ``` help <topic> ```, the relevant explanation is provided. If no argument Is given, all 
  documented commands are listed.
-If help <more> is entered this file will be displayed in a block of twenty lines on each Enter 
-key press
+If ``` help <more> ``` is entered this file will be displayed in a block of twenty lines on each Enter 
+key press.
 
 ## program exexcution:
 
 the shell can execute programs as in a regular shell, to run a program simply type the program 
 name followed by the command line arguments if any.
-e.g. ProgramName.py args
-note: can aslo execute command upon executing the shell e.g. myshell.py example.py, the shell
+e.g. ``` ProgramName.py args ```
+note: can aslo execute command upon executing the shell e.g. ``` myshell.py example.py ```, the shell
 will exit upon completion
 
 ## output redirection:
@@ -72,7 +72,7 @@ if it does.
 
 ## Examples:
 
-		echo args example > output.txt
-		ProgramName.py  args > output.txt
-		echo args example >> output.txt
-		ProgramName.py args >> output.txt
+		``` echo args example > output.txt ```
+		``` ProgramName.py  args > output.txt ```
+		``` echo args example >> output.txt ```
+		``` ProgramName.py args >> output.txt ```
